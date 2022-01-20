@@ -1,1 +1,1 @@
-# testnets
+# Cosmic Horizon Testnets
