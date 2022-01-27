@@ -50,7 +50,7 @@ source ~/.bashrc
 
 This command invokes curl to download the install script and pipes the output to bash to perform the installation. The starport binary is installed in /usr/local/bin.
 
-To learn more or customize the installation process, see [Starport installer docs](https://github.com/allinbits/starport-installer)on GitHub.
+To learn more or customize the installation process, see [Starport installer docs](https://github.com/allinbits/starport-installer) on GitHub.
 
 ```
 curl https://get.starport.network/starport! | bash
