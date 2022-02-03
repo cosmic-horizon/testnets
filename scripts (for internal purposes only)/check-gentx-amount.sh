@@ -4,7 +4,7 @@ set -eo pipefail
 
 path="$1"
 
-declare -i maxbond=100000000000
+declare -i maxbond=1000000000000
 
 # querytype="jq -r '.body.messages[0][\"@type\"]' $path"
 
@@ -18,8 +18,8 @@ amountquery=$(jq -r '.body.messages[0].value.amount' $path)
 #   exit 1
 # fi
 
-# only allow "utree" tokens to be bonded
-if [ $denomquery != "utree" ]; then
+# only allow "ucoho" tokens to be bonded
+if [ $denomquery != "ucoho" ]; then
   echo "invalid denomination"
   exit 1
 fi
