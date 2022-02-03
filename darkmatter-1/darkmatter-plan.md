@@ -1,9 +1,10 @@
 # Cosmic Horizon - darkmatter-1 Testnet Planning
 
 ## Disclaimer
-- Everything is subject to change. Pay attention to the discord [validator announcement channel] (https://discord.gg/4Cj23MJHBM) for announcements. We are testing complex, opensource beta software. Expect things to break. If the dcoumentation is inadequit, make a PR. 
+- Everything is subject to change. Pay attention to the discord [validator announcement channel] (https://discord.gg/MmaEC8RU3b) for announcements. We are testing complex, opensource beta software. Expect things to break. If the documentation is inadequate, make a PR. 
 
 ## Overview
+
 - **Coming Soon**
 
 ---
