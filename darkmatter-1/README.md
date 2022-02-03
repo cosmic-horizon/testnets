@@ -83,12 +83,12 @@ starport chain build
 
 ```
 cd ~
-coho init <your moniker> --chain-id darkmatter-1
+cohod init <your moniker> --chain-id darkmatter-1
 ```
 
 example:
 ```
-coho init coho-tester --chain-id darkmatter-1
+cohod init coho-tester --chain-id darkmatter-1
 
 # replace coho-tester with your moniker
 ```
@@ -98,12 +98,12 @@ It's very important that after you run this command that you save the seed phras
 save you phrase, you will not be able to recover this account.
 
 ```
-coho keys add <your validator key name>
+cohod keys add <your validator key name>
 ```
 
 example:
 ```
-coho keys add coho-test-wallet
+cohod keys add coho-test-wallet
 
 # replace coho-tester-wallet with a wallet name of your choosing
 ```
