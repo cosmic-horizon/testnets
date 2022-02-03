@@ -62,9 +62,7 @@
         "withdraw_addr_enabled": true
       },
       "fee_pool": {
-        "community_pool": [
-          {}
-        ]
+        "community_pool": []
       },
       "delegator_withdraw_infos": [],
       "previous_proposer": "",
