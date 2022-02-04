@@ -10,7 +10,7 @@ jobs:
           wget https://github.com/cosmic-horizon/coho/releases/download/v0.1/cohod-v0.1-linux-amd64
           chmod +x cohod-v0.1-linux-amd64
           sudo mv cohod-v0.1-linux-amd64 /bin/coho
-          coho init test
+          coho init test --chain-id darkmatter-1
           mkdir $HOME/.coho/config/gentx
           cp ./genesis.json $HOME/.coho/config/
           cp ./gentxs/* $HOME/.coho/config/gentx/
