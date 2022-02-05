@@ -1,4 +1,4 @@
-# List of Peers for Darmkatter-1
+# List of Peers for Darkmatter-1
 
 Feel free to add your peer here
 
