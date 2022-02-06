@@ -14,6 +14,17 @@
 - GenTx Validator Address Submission : Feb 3, 2022 1600 UTC. Up to 200 adresses will be accepted. 50 Points for successfull wallet submissions
 - Network start time: Feb 8th, 2021 1600 UTC - 50 points for everyone who brings up their nodes within first 10 blocks (votes).
 - Provide peer - 50 points for everyone who provides a peer
+    - Instructions to submit the PR:
+        - Clone cosmic-horizon/testnets repo,
+        ```sh
+        $ git clone https://github.com/cosmic-horizon/testnets
+        $ cd testnets
+        $ git pull origin master
+        $ cd darkmatter-1/tasks/phase-1/genesis
+        $ cp sample.json <your_moniker>.json
+        ```
+        - Add/Update the details
+        - Push to the repo and create a PR
 
 ### Parameter Update-1: Transfers
 Lead validator team will create a governance proposal on 10th Feb, 2021 at ~1500 UTC, to update the transfer parameter.
