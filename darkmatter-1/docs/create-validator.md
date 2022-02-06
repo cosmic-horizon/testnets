@@ -12,7 +12,7 @@ cohod tx staking create-validator \
   --amount=900000000000ucoho \
   --pubkey=$(regen tendermint show-validator) \
   --moniker="<node_moniker>" \
-  --chain-id=<chain_id> \
+  --chain-id=darkmatter-1 \
   --commission-rate="0.10" \
   --commission-max-rate="0.20" \
   --commission-max-change-rate="0.01" \
