@@ -121,6 +121,15 @@ cohod keys add coho-test-wallet
 curl -s https://raw.githubusercontent.com/cosmic-horizon/testnets/main/darkmatter-1/genesis.json > $HOME/.coho/config/genesis.json
 ```
 
+### Verfiy Genesis
+
+```
+cd $HOME/.coho/config/
+md5sum genesis.json
+
+# fc67a73b13eb2f3d865bf68b76cb5340  genesis.json
+```
+
 ### Create a Validator
 **Optional**
 
