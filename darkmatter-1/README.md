@@ -1,7 +1,7 @@
 # Cosmic Horizon Network Testnet: darkmatter-1 Testnet
 
 ## Quick Links
-Genesis: **coming soon**
+Genesis: https://raw.githubusercontent.com/cosmic-horizon/testnets/main/darkmatter-1/genesis.json
 
 Git tag: coho v0.1
 
