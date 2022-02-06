@@ -1,7 +1,7 @@
 # Cosmic Horizon - Darkmatter-1 Testnet Planning
 
 ## Disclaimer
-- Everything is subject to change. Pay attention to the discord [validator announcement channel] (https://discord.gg/MmaEC8RU3b) for announcements. We are testing complex, opensource beta software. Expect things to break. If the documentation is inadequit, make a PR. 
+- Everything is subject to change. Pay attention to the discord [validator announcement channel] (https://discord.gg/MmaEC8RU3b) for announcements. We are testing complex, opensource beta software. Expect things to break. If the documentation is inadequate, make a PR. 
 ## Overview
 - 3 Phases (min)
 - 2 governance proposals
@@ -73,7 +73,17 @@ __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
 - 21 to 50 teams will get 50 points each
 **NOTE:** Please check bonus section below for appropriate bonuses.
 
-## Phase 2 and 3 TBD
+## Phase 2 - IBC Test
+- Upgrade proposal to enable IBC transfers - 22nd Feb, 1600 UTC
+- Voting Period: 22-02-2022 1600 to 24-02-2021 - 25 points
+- Test IBC Transfers of `ocoho` token - max 200 points
+    - Schedule 24-25th Feb, 1600 UTC (IBC transactions should be made in this time period)
+    - Make a PR with ibc-path info (see [tasks/phase-2/4-ibc/sample.json](./tasks/phase-2/4-ibc/sample.json) for reference). Last date for submitting PRs is : 26th Feb, 0600 UTC
+    - Please find more detailed instructions [here](./tasks/phase-2/4-ibc/)
+- Run a custom ibc-enabled chain and transfer tokens back and forth - 200 points [24th Feb-26th Feb, 1600UTC]
+    - Make a PR with ibc-path info (see [tasks/phase-2/5-custom-ibc/sample.json](./tasks/phase-2/5-custom-ibc/sample.json) for reference). Last date for submitting PRs is : 27th Feb, 0600 UTC
+
+## Phase 3 TBD
 ## Bonus Challenges
 - Uptime - 4000points
     - 2000 points will be distributed among validators who never miss _signing_ a block (max 200 points per validator)
@@ -99,6 +109,6 @@ For the avoidance of doubt, a _missed_ block, is a block for which the validator
 
 - Testnet tokens are limited and valuable assets for the testnet. It is restricted/not allowed to receive external delegations. One should not try to increase their voting power by spamming the faucet. But it is encouraged to increase their stake by re-staking their rewards.  There are no incentives related to the number of tokens you attain.  The faucet should be used as a utility.  
 - We expect formal and professional behaviour from the participants and encourage a healthy competition, as well as healthy cooperation. Any misbehaviour will potentially disqualify one from the contest. This includes trolling channels, and being dismissive or rude to teammembers or other testnet participants.  
-- Participating as a group or running validators from multiple accounts should be strictly avoided and any hint on such activities would disqualify users staraight away. Everyone involved would get ZERO rewards. We are not running this testnet to uncover cartel behavior, there are testnets where that is perfectly acceptable and encouraged, find those testnets. This testnet is explicitly to test Cosmic Horizon functionality and performance and create an opportunity for helping to secure and govern our network.  This is not an advisarial testnet in which the basic assumptions of PoS systems are being tested. Don't encourage your friends to spin up nodes just for the rewards sake.
+- Participating as a group or running validators from multiple accounts should be strictly avoided and any hint on such activities would disqualify users staraight away. Everyone involved would get ZERO rewards. We are not running this testnet to uncover cartel behavior, there are testnets where that is perfectly acceptable and encouraged, find those testnets. This testnet is explicitly to test Cosmic Horizon functionality and performance and create an opportunity for helping to secure and govern our network.  This is not an adversarial testnet in which the basic assumptions of PoS systems are being tested. Don't encourage your friends to spin up nodes just for the rewards sake.
 - If a user is flagged or blocked on Discord/Github/Twitter will be considered ineligible. 
 - Same account/name should be used throughout the testnet. It's not allowed to raise PRs from different github accounts.
