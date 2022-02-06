@@ -2,7 +2,7 @@
 
 You will find all testnet implementations of the Cosmic Horizon Network in this repository.
 
-# Installing Cohod
+# Installing CoHo
 
 ## Quick Links
 Genesis: **coming soon**
@@ -25,7 +25,7 @@ Here are the minimal hardware configs required for running a validator/sentry no
 - [Go v1.17.1](https://golang.org/doc/install)
 - [Starport](https://docs.starport.network/guide/install.html)
 
-# Install cohod, Generate Wallet and Start your Node
+# Install CoHo, Generate Wallet and Start your Node
 
 You have two options for installing the cohod binary. First, our team will be providing releases of cohod in our github repository, please check the [releases page](https://github.com/cosmic-horizon/coho/releases) for the latest version of cohod.  Secondly, you can follow the steps below to compile coho yourself.
 
@@ -84,7 +84,7 @@ git clone https://github.com/cosmic-horizon/coho.git
 cd ~/coho
 starport chain build
 ```
-## Generating your wallet and starting coho instance
+## Generating your wallet and starting CoHo instance
 ### Initiate CoHo Instance
 
 ```
@@ -124,7 +124,7 @@ curl -s https://raw.githubusercontent.com/cosmic-horizon/testnets/main/darkmatte
 ### Create a Validator
 **Optional**
 
-Please see the [create-a-validator docs]()
+Please see the [create-a-validator docs](https://github.com/cosmic-horizon/testnets/blob/main/darkmatter-1/docs/create-validator.md)
 
 ### Start your node
 
