@@ -7,7 +7,7 @@
 - 2 governance proposals
     -   Enable Transfers
     -   Enable IBC
-- Rewards: 1500+ points possible per participant with a total of 100,000 CoHo tokens available for winners. 
+- Rewards: 1500+ points possible per participant with a total of 50,000 CoHo tokens available for winners. 
 - Schedule: Feb 8th - Mar 8th
 
 ## Phase - 1: Genesis Phase - max 100 points
