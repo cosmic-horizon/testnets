@@ -7,7 +7,7 @@
 - 2 governance proposals
     -   Enable Transfers
     -   Enable IBC
-- Rewards: 1500+ points possible per participant with a total of 50,000 CoHo tokens available for winners. 
+- Rewards: 1500+ points possible per participant with a total of 100,000 CoHo tokens available for winners. 
 - Schedule: Feb 8th - Mar 8th
 
 ## Phase - 1: Genesis Phase - max 100 points
@@ -23,7 +23,7 @@ __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
 - Proposal: Feb 10th, 2021 ~1600 UTC
 - Voting Period: Feb 10th - Feb 12th, ~1600 UTC
 - Upgrade Height: `TBD`
-    - First 10 teams to vote on the update will get 100points each.
+    - First 10 teams to vote on the update will get 100 points each.
     - Next 20 teams will get 60 points each.
     - Next 20 teams will get 40 points each.
     - Other teams who voted will share 20 points each.
