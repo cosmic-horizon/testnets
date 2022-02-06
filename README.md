@@ -27,7 +27,7 @@ Here are the minimal hardware configs required for running a validator/sentry no
 
 # Install cohod, Generate Wallet and Start your Node
 
-You have two options for installing theh cohod binary. First, our team will be providing releases of cohod in our github repository, please check the [releases page](https://github.com/cosmic-horizon/coho/releases) for the latest version of cohod.  Secondly, you can follow the steps below to compile coho yourself.
+You have two options for installing the cohod binary. First, our team will be providing releases of cohod in our github repository, please check the [releases page](https://github.com/cosmic-horizon/coho/releases) for the latest version of cohod.  Secondly, you can follow the steps below to compile coho yourself.
 
 ## Install Go version 1.17.1
 
