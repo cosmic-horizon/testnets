@@ -10,7 +10,7 @@ Install the coho binary and start your node by following these [instructions](ht
 ```
 cohod tx staking create-validator \
   --amount=900000000000ucoho \
-  --pubkey=$(regen tendermint show-validator) \
+  --pubkey=$(cohod tendermint show-validator) \
   --moniker="<node_moniker>" \
   --chain-id=darkmatter-1 \
   --commission-rate="0.10" \
