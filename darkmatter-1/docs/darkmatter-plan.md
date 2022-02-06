@@ -10,9 +10,10 @@
 - Rewards: 1500+ points possible per participant with a total of 100,000 CoHo tokens available for winners. 
 - Schedule: Feb 8th - Mar 8th
 
-## Phase - 1: Genesis Phase - max 100 points
+## Phase - 1: Genesis Phase - max 150 points
 - GenTx Validator Address Submission : Feb 3, 2022 1600 UTC. Up to 200 adresses will be accepted. 50 Points for successfull wallet submissions
 - Network start time: Feb 8th, 2021 1600 UTC - 50 points for everyone who brings up their nodes within first 10 blocks (votes).
+- Provide peer - 50 points for everyone who provides a peer
 
 ### Parameter Update-1: Transfers
 Lead validator team will create a governance proposal on 10th Feb, 2021 at ~1500 UTC, to update the transfer parameter.
