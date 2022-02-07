@@ -1,7 +1,7 @@
 # Cosmic Horizon Network Testnet: darkmatter-1 Testnet
 
 ## Quick Links
-Genesis: **coming soon**
+Genesis: https://raw.githubusercontent.com/cosmic-horizon/testnets/main/darkmatter-1/genesis.json
 
 Git tag: coho v0.1
 
@@ -107,13 +107,6 @@ cohod keys add coho-test-wallet
 
 # replace coho-tester-wallet with a wallet name of your choosing
 ```
-
-## Submit your wallet address
-
-In order for us to create a genesis file we must airdrop testnet tokens to your newly created accounts.  Please fill out this [form](https://forms.gle/P3VrRaBe7XhXnRHi7) to receive your tokens and then wait for further instructions! Once the first 200 addresses have registered I will close the form.
-
-# STOP HERE UNTIL INSTRUCTED TO CONTINUE
-
 ## More about validators
 
 Please refer to the Cosmos Hub documentation on validators for a general overview of running a validator. We are using the exact same validator model and software, but with slightly different parameters and other functionality specific to the Cosmic Horizon Network.
