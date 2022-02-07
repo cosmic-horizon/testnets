@@ -1,0 +1,5 @@
+{
+    "moniker": "StingRay",
+    "valopr_address": "cohovaloper1wdarsfj6lq5k0xks7pe5gpyfe3cue76vk4gzyw",
+    "addedPeer": "e79969fc81b9641c79507cfc62fc2ff81ecc2459@65.108.47.229:26651"
+}
