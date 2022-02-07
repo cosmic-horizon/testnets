@@ -6,6 +6,10 @@ Here is a quick way to grab the correct string to add;
 ```
 echo "$(cohod tendermint show-node-id)@$(curl ifconfig.me):26656"
 ```
+or
+```
+echo $(cohod tendermint show-node-id)'@'$(curl -s ifconfig.me)':'$(cat $HOME/.coho/config/config.toml | sed -n '/Address to listen for incoming connection/{n;p;}' | sed 's/.*://; s/".*//')
+```
 
 ```
 4338abf9fdbe143e59119d25310d8187e776df8a@89.58.6.243:26656
@@ -20,3 +24,5 @@ fb14afb3ca33df42932ff9bd15e4662ae3d2e9fb@136.243.110.52:26656
 9291cebff2bb3781957451f85876a70cc7d386b4@95.179.186.131:26656
 8ec8203e97e2d6f83d839b29519ea9298ac0b310@95.217.131.135:26656
 0d67b8c164f20b82b055b8d88366b104fd3091f7@144.202.124.47:26656
+f9b76a01d49fb2f272a8a160e800c3795e7050c3@195.201.59.194:16656
+```
