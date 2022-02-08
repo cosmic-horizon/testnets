@@ -9,11 +9,23 @@
     -   Enable IBC
 - Rewards: 1500+ points possible per participant with a total of 100,000 CoHo tokens available for winners. 
 - Schedule: Feb 8th - Mar 8th
+- For the Genesis and Celebrate sections please sign a transaction for each of the tasks and provide the txHash in a PR.
 
-## Phase - 1: Genesis Phase - max 150 points
+## Phase - 1: Genesis - max 150 points
 - GenTx Validator Address Submission : Feb 3, 2022 1600 UTC. Up to 200 adresses will be accepted. 50 Points for successfull wallet submissions
 - Network start time: Feb 8th, 2021 1600 UTC - 50 points for everyone who brings up their nodes within first 10 blocks (votes).
 - Provide peer - 50 points for everyone who provides a peer
+    - Instructions to submit the PR:
+        - Clone cosmic-horizon/testnets repo,
+        ```sh
+        $ git clone https://github.com/cosmic-horizon/testnets
+        $ cd testnets
+        $ git pull origin master
+        $ cd darkmatter-1/tasks/phase-1/genesis
+        $ cp sample.json <your_moniker>.json
+        ```
+        - Add/Update the details
+        - Push to the repo and create a PR
 
 ### Parameter Update-1: Transfers
 Lead validator team will create a governance proposal on 10th Feb, 2021 at ~1500 UTC, to update the transfer parameter.
@@ -61,7 +73,17 @@ __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
 - 21 to 50 teams will get 50 points each
 **NOTE:** Please check bonus section below for appropriate bonuses.
 
-## Phase 2 and 3 TBD
+## Phase 2 - IBC Test
+- Upgrade proposal to enable IBC transfers - 22nd Feb, 1600 UTC
+- Voting Period: 22-02-2022 1600 to 24-02-2021 - 25 points
+- Test IBC Transfers of `ocoho` token - max 200 points
+    - Schedule 24-25th Feb, 1600 UTC (IBC transactions should be made in this time period)
+    - Make a PR with ibc-path info (see [tasks/phase-2/4-ibc/sample.json](./tasks/phase-2/4-ibc/sample.json) for reference). Last date for submitting PRs is : 26th Feb, 0600 UTC
+    - Please find more detailed instructions [here](./tasks/phase-2/4-ibc/)
+- Run a custom ibc-enabled chain and transfer tokens back and forth - 200 points [24th Feb-26th Feb, 1600UTC]
+    - Make a PR with ibc-path info (see [tasks/phase-2/5-custom-ibc/sample.json](./tasks/phase-2/5-custom-ibc/sample.json) for reference). Last date for submitting PRs is : 27th Feb, 0600 UTC
+
+## Phase 3 TBD
 ## Bonus Challenges
 - Uptime - 4000points
     - 2000 points will be distributed among validators who never miss _signing_ a block (max 200 points per validator)
