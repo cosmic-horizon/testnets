@@ -13,7 +13,7 @@
 
 ## Phase - 1: Genesis - max 150 points
 - GenTx Validator Address Submission : Feb 3, 2022 1600 UTC. Up to 200 adresses will be accepted. 50 Points for successfull wallet submissions
-- Network start time: Feb 8th, 2021 1600 UTC - 50 points for everyone who brings up their nodes within first 10 blocks (votes).
+- Network start time: Feb 8th, 2021 1600 UTC - 50 points for everyone who brings up their nodes within first 50 blocks (votes).
 - Provide peer - 50 points for everyone who provides a peer
     - Instructions to submit the PR:
         - Clone cosmic-horizon/testnets repo,
