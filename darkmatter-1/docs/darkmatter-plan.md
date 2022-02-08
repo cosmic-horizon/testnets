@@ -20,8 +20,8 @@
         ```sh
         $ git clone https://github.com/cosmic-horizon/testnets
         $ cd testnets
-        $ git pull origin master
-        $ cd darkmatter-1/tasks/phase-1/genesis
+        $ git pull origin main
+        $ cd darkmatter-1/tasks/Phase-1/genesis
         $ cp sample.json <your_moniker>.json
         ```
         - Add/Update the details - provide txhash of peerID in a transaction memo
@@ -58,8 +58,8 @@ __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
         ```sh
         $ git clone https://github.com/cosmic-horizon/testnets
         $ cd testnets
-        $ git pull origin master
-        $ cd darkmatter-1/tasks/phase-1/celebrate
+        $ git pull origin main
+        $ cd darkmatter-1/tasks/Phase-1/celebrate
         $ cp sample.json <your_moniker>.json
         ```
         - Add/Update the details
