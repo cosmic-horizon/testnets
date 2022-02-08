@@ -24,7 +24,7 @@
         $ cd darkmatter-1/tasks/phase-1/genesis
         $ cp sample.json <your_moniker>.json
         ```
-        - Add/Update the details
+        - Add/Update the details - provide txhash of peerID in a transaction memo
         - Push to the repo and create a PR
 
 ### Parameter Update-1: Transfers
