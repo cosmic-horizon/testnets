@@ -13,18 +13,18 @@
 
 ## Phase - 1: Genesis - max 150 points
 - GenTx Validator Address Submission : Feb 3, 2022 1600 UTC. Up to 200 adresses will be accepted. 50 Points for successfull wallet submissions
-- Network start time: Feb 8th, 2021 1600 UTC - 50 points for everyone who brings up their nodes within first 10 blocks (votes).
+- Network start time: Feb 8th, 2021 1600 UTC - 50 points for everyone who brings up their nodes within first 50 blocks (votes).
 - Provide peer - 50 points for everyone who provides a peer
     - Instructions to submit the PR:
         - Clone cosmic-horizon/testnets repo,
         ```sh
         $ git clone https://github.com/cosmic-horizon/testnets
         $ cd testnets
-        $ git pull origin master
-        $ cd darkmatter-1/tasks/phase-1/genesis
+        $ git pull origin main
+        $ cd darkmatter-1/tasks/Phase-1/genesis
         $ cp sample.json <your_moniker>.json
         ```
-        - Add/Update the details
+        - Add/Update the details - provide txhash of peerID in a transaction memo
         - Push to the repo and create a PR
 
 ### Parameter Update-1: Transfers
@@ -58,8 +58,8 @@ __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
         ```sh
         $ git clone https://github.com/cosmic-horizon/testnets
         $ cd testnets
-        $ git pull origin master
-        $ cd darkmatter-1/tasks/phase-1/celebrate
+        $ git pull origin main
+        $ cd darkmatter-1/tasks/Phase-1/celebrate
         $ cp sample.json <your_moniker>.json
         ```
         - Add/Update the details
