@@ -127,7 +127,7 @@ curl -s https://raw.githubusercontent.com/cosmic-horizon/testnets/main/darkmatte
 cd $HOME/.coho/config/
 md5sum genesis.json
 
-# fc67a73b13eb2f3d865bf68b76cb5340  genesis.json
+# a151c16fcc833c879e305bb5c18a9f7b  genesis.json
 ```
 
 ### Create a Validator
