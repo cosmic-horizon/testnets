@@ -1,0 +1,9 @@
+{
+    "moniker": "farukyasar",
+    "valopr_address": "cohovaloper1d3npz9x2u8jqhsgavwzjxvqsvssvvvmush8fu6",
+    "sendTxHashes": ["hash1", "hash2"],
+    "delegateTxHashes": ["hash1", "hash2"],
+    "tweetMemoTx": "",
+    "linkedInPostMemoTx": "",
+    "memoWithDiscordHandleTxHash": ""
+}
