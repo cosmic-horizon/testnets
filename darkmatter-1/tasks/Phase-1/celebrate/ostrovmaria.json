@@ -1,0 +1,9 @@
+{
+    "moniker": "ostrovmaria",
+    "valopr_address": "cohovaloper1dxc80wh50qgppwf0ez87ggpk3fkggel7qlzm4j",
+    "sendTxHashes": ["A1EC2FD3AA216CBECF3E1F4D62D4A639FBCFCBA8961206DDDBCEEEE90E164C35"],
+    "delegateTxHashes": ["164C42A40C2DAC6E15E6625A9B30EC67A030621DE13D7739D62D4FEBDF7EB01B"],
+    "tweetMemoTx": "",
+    "linkedInPostMemoTx": "",
+    "memoWithDiscordHandleTxHash": "164C42A40C2DAC6E15E6625A9B30EC67A030621DE13D7739D62D4FEBDF7EB01B"   
+}
