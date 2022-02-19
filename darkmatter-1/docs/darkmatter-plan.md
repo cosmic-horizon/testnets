@@ -1,7 +1,7 @@
 # Cosmic Horizon - Darkmatter-1 Testnet Planning
 
 ## Disclaimer
-- Everything is subject to change. Pay attention to the discord [validator announcement channel] (https://discord.gg/MmaEC8RU3b) for announcements. We are testing complex, opensource beta software. Expect things to break. If the documentation is inadequate, make a PR. 
+- Everything is subject to change. Pay attention to the discord [validator announcement channel](https://discord.gg/MmaEC8RU3b) for announcements. We are testing complex, opensource beta software. Expect things to break. If the documentation is inadequate, make a PR. 
 ## Overview
 - 3 Phases (min)
 - 2 governance proposals
@@ -20,8 +20,8 @@
         ```sh
         $ git clone https://github.com/cosmic-horizon/testnets
         $ cd testnets
-        $ git pull origin master
-        $ cd darkmatter-1/tasks/phase-1/genesis
+        $ git pull origin main
+        $ cd darkmatter-1/tasks/Phase-1/genesis
         $ cp sample.json <your_moniker>.json
         ```
         - Add/Update the details - provide txhash of peerID in a transaction memo
@@ -58,8 +58,8 @@ __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
         ```sh
         $ git clone https://github.com/cosmic-horizon/testnets
         $ cd testnets
-        $ git pull origin master
-        $ cd darkmatter-1/tasks/phase-1/celebrate
+        $ git pull origin main
+        $ cd darkmatter-1/tasks/Phase-1/celebrate
         $ cp sample.json <your_moniker>.json
         ```
         - Add/Update the details
