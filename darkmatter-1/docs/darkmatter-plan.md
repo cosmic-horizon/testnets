@@ -80,7 +80,7 @@ __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
     - Schedule 1-3 Mar, 1600 UTC (IBC transactions should be made in this time period)
     - Make a PR with ibc-path info (see [tasks/phase-2/4-ibc/sample.json](./tasks/phase-2/sample.json) for reference). Last date for submitting PRs is : 3 Mar, 0600 UTC
     - Please find more detailed instructions [here](https://mzonder.notion.site/Celestia-Coho-IBC-transfers-devnet-2-darkmatter-1-45028fa5297741b0b97d9954368a38b1)
-- Run a custom ibc-enabled chain and transfer tokens back and forth - 200 points [24th Feb-26th Feb, 1600UTC]
+- Run a custom ibc-enabled chain and transfer tokens back and forth - 200 points [5 Mar - 7 Mar, 1600UTC]
     - Make a PR with ibc-path info (see [tasks/phase-2/5-custom-ibc/sample.json](./tasks/phase-2/5-custom-ibc/sample.json) for reference). Last date for submitting PRs is : 3 Mar, 0600 UTC
 
 ## Phase 3 TBD
