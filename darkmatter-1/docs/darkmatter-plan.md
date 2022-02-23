@@ -76,7 +76,7 @@ __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
 ## Phase 2 - IBC Test
 - Upgrade proposal to enable IBC transfers - 22nd Feb, 1600 UTC
 - Voting Period: 22-02-2022 1600 to 24-02-2021 - 25 points
-- Test IBC Transfers of `ocoho` token - max 200 points
+- Test IBC Transfers of `ucoho` token - max 200 points
     - Schedule 24-25th Feb, 1600 UTC (IBC transactions should be made in this time period)
     - Make a PR with ibc-path info (see [tasks/phase-2/4-ibc/sample.json](./tasks/phase-2/4-ibc/sample.json) for reference). Last date for submitting PRs is : 26th Feb, 0600 UTC
     - Please find more detailed instructions [here](./tasks/phase-2/4-ibc/)
