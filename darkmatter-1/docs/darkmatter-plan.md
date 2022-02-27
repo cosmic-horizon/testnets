@@ -82,7 +82,7 @@ __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
     - Please find more detailed instructions [here](https://mzonder.notion.site/Celestia-Coho-IBC-transfers-devnet-2-darkmatter-1-45028fa5297741b0b97d9954368a38b1)
 - Run a custom ibc-enabled chain and transfer tokens back and forth - 200 points [5 Mar - 7 Mar, 1600UTC]
     - Make a PR with ibc-path info (see [tasks/phase-2/5-custom-ibc/sample.json](./tasks/phase-2/5-custom-ibc/sample.json) for reference). Last date for submitting PRs is : 7 Mar, 1600 UTC
-    - Detailed information on how to setup custom testnet chain [can be found here](https://yep-.notion.site/Setting-up-a-custom-testnet-chain-a23be97ff4884565a2bec35ddea7113b)
+    - Detailed information on how to setup custom testnet chain [can be found here](https://yep1.notion.site/Setting-up-a-custom-testnet-chain-a23be97ff4884565a2bec35ddea7113b)
 
 ## Phase 3 TBD
 ## Bonus Challenges
