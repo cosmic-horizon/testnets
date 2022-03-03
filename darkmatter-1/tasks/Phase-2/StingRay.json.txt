@@ -1,0 +1,6 @@
+{
+    "src2dstTxHash": "0F5A98641608BDBEB5FF082F29EBBA7C6D89347B8B0EC3DDDF8816D801205A16",
+    "dst2srcTxHash": "739EF6138827B3C7DCF1C31EFD032B84C8D41F857D324761599E6B75FB93DC8C",
+    "accountAddress": "coho1wdarsfj6lq5k0xks7pe5gpyfe3cue76vxp2hu3",
+    "validatorOprAddress": "cohovaloper1wdarsfj6lq5k0xks7pe5gpyfe3cue76vk4gzyw"
+}
