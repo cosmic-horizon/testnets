@@ -76,12 +76,13 @@ __New to upgrades?__ Read [this](https://docs.cosmos.network/master/modules/gov)
 ## Phase 2 - IBC Test
 - Upgrade proposal to enable IBC transfers - 22nd Feb, 1600 UTC
 - Voting Period: 22-02-2022 1600 to 24-02-2021 - 25 points
-- Test IBC Transfers of `ocoho` token - max 200 points
-    - Schedule 24-25th Feb, 1600 UTC (IBC transactions should be made in this time period)
-    - Make a PR with ibc-path info (see [tasks/phase-2/4-ibc/sample.json](./tasks/phase-2/4-ibc/sample.json) for reference). Last date for submitting PRs is : 26th Feb, 0600 UTC
-    - Please find more detailed instructions [here](./tasks/phase-2/4-ibc/)
-- Run a custom ibc-enabled chain and transfer tokens back and forth - 200 points [24th Feb-26th Feb, 1600UTC]
-    - Make a PR with ibc-path info (see [tasks/phase-2/5-custom-ibc/sample.json](./tasks/phase-2/5-custom-ibc/sample.json) for reference). Last date for submitting PRs is : 27th Feb, 0600 UTC
+- Test IBC Transfers of `ucoho` token - max 200 points
+    - Schedule 1-3 Mar, 1600 UTC (IBC transactions should be made in this time period)
+    - Make a PR with ibc-path info (see [tasks/phase-2/4-ibc/sample.json](https://github.com/cosmic-horizon/testnets/blob/main/darkmatter-1/tasks/Phase-2/sample.json) for reference). Last date for submitting PRs is : 3 Mar, 1600 UTC
+    - Please find more detailed instructions [here](https://mzonder.notion.site/Celestia-Coho-IBC-transfers-devnet-2-darkmatter-1-45028fa5297741b0b97d9954368a38b1)
+- Run a custom ibc-enabled chain and transfer tokens back and forth - 200 points [5 Mar - 7 Mar, 1600UTC]
+    - Make a PR with ibc-path info (see [tasks/phase-2/5-custom-ibc/sample.json](./tasks/phase-2/5-custom-ibc/sample.json) for reference). Last date for submitting PRs is : 7 Mar, 1600 UTC
+    - Detailed information on how to setup custom testnet chain [can be found here](https://yep1.notion.site/Setting-up-a-custom-testnet-chain-a23be97ff4884565a2bec35ddea7113b)
 
 ## Phase 3 TBD
 ## Bonus Challenges

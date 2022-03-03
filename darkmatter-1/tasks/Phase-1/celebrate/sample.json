@@ -1,9 +1,0 @@
-{
-    "moniker": "",
-    "valopr_address": "",
-    "sendTxHashes": ["hash1", "hash2"],
-    "delegateTxHashes": ["hash1", "hash2"],
-    "tweetMemoTx": "",
-    "linkedInPostMemoTx": "",
-    "memoWithDiscordHandleTxHash": ""
-}
