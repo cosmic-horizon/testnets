@@ -22,9 +22,9 @@ Here are the minimal hardware configs required for running a validator/sentry no
 
 ### Installation Steps
 
-#### Install Prerequisites 
+#### Install Prerequisites
 
-The following are necessary to build dig from source. 
+The following are necessary to build Cosmic Horizon from source. 
 
 ##### 1. Basic Packages
 ```bash:
@@ -81,7 +81,7 @@ sudo mv starport /usr/local/bin/
 
 ##### 1. Clone repository
 ```bash:
-git clone https://github.com/notional-labs/dig.git
+https://github.com/cosmic-horizon/coho.git
 cd coho
 git checkout v0.1
 starport chain build
