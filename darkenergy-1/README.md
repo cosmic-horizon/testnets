@@ -1,53 +1,63 @@
 # Cosmic Horizon Network Testnet: darkmatter-1 Testnet
 
-## Quick Links
+### Quick Links
 Genesis: TBA
 
-Git tag: coho v0.2
+Git tag: coho v0.1
 
 Block explorer: **coming soon**
 
 Seeds: TBA
 
-## Hardware Requirements
+#### Hardware Requirements
 Here are the minimal hardware configs required for running a validator/sentry node
  - 8GB RAM
  - 4vCPUs
  - 200GB Disk space
 
-## Software Requirements
-
+#### Software Requirements
 - Ubuntu 18.04 or higher
-- [Go v1.17.1](https://golang.org/doc/install)
+- [Go v1.8](https://golang.org/doc/install)
 - [Starport](https://docs.starport.network/guide/install.html)
 
-# Install CoHo, Generate Wallet and Submit GenTx
+### Installation Steps
 
-## Install Go version 1.17.1
+#### Install Prerequisites 
 
-```
-sudo apt update  
-sudo apt install build-essential jq wget git -y
+The following are necessary to build dig from source. 
 
-wget https://dl.google.com/go/go1.17.1.linux-amd64.tar.gz
-tar -xvf go1.17.1.linux-amd64.tar.gz
-sudo mv go /usr/local
-```
-
-Now add go to your bashrc -
-```
-echo "" >> ~/.bashrc
-echo 'export GOPATH=$HOME/go' >> ~/.bashrc
-echo 'export GOROOT=/usr/local/go' >> ~/.bashrc
-echo 'export GOBIN=$GOPATH/bin' >> ~/.bashrc
-echo 'export PATH=$PATH:/usr/local/go/bin:$GOBIN' >> ~/.bashrc
-
-# use this new bashrc configuration
-source ~/.bashrc
+##### 1. Basic Packages
+```bash:
+# update the local package list and install any available upgrades 
+sudo apt-get update && sudo apt upgrade -y 
+# install toolchain and ensure accurate time synchronization 
+sudo apt-get install make build-essential gcc git jq chrony -y
 ```
 
-## Install Starport
+##### 2. Install Go
+Follow the instructions [here](https://golang.org/doc/install) to install Go.
 
+Alternatively, for Ubuntu LTS, you can do:
+```bash:
+wget https://golang.org/dl/go1.18.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.18.linux-amd64.tar.gz
+```
+
+Unless you want to configure in a non standard way, then set these in the `.profile` in the user's home (i.e. `~/`) folder.
+
+```bash:
+cat <<EOF >> ~/.profile
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export GO111MODULE=on
+export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
+EOF
+source ~/.profile
+go version
+```
+Output should be: `go version go1.8 linux/amd64`
+
+##### 3. Install Starport
 This command invokes curl to download the install script and pipes the output to bash to perform the installation. The starport binary is installed in /usr/local/bin.
 
 To learn more or customize the installation process, see [Starport installer docs](https://github.com/allinbits/starport-installer) on GitHub.
@@ -67,51 +77,57 @@ Then run this command to move the starport executable to /usr/local/bin/:
 sudo mv starport /usr/local/bin/
 ```
 
-## Install CoHo
+#### Install Cosmic Horizon from source
 
-These next steps will install the cohod binary which is used to run your chain.
-```
-# Clone the Repo
-git clone https://github.com/cosmic-horizon/coho.git
-
-# Install CoHo
-cd ~/coho
+##### 1. Clone repository
+```bash:
+git clone https://github.com/notional-labs/dig.git
+cd coho
+git checkout v0.1
 starport chain build
 ```
 
-### Initiate CoHo Instance
-
-```
-cd ~
-cohod init <your moniker> --chain-id darkenergy-1
+#### 2. Init chain
+```bash:
+cohod init $MONIKER_NAME --chain-id darkenergy-1
 ```
 
-example:
-```
-cohod init coho-tester --chain-id darkenergy-1
+#### 3. Add/recover keys
+```bash:
+# To create new keypair - make sure you save the mnemonics!
+cohod keys add <key-name> 
 
-# replace coho-tester with your moniker
-```
-
-### Create Validator Key
-It's very important that after you run this command that you save the seed phrase that is generated.  If you do not
-save you phrase, you will not be able to recover this account.
-
-```
-cohod keys add <your validator key name>
+# Restore existing odin wallet with mnemonic seed phrase. 
+# You will be prompted to enter mnemonic seed. 
+cohod keys add <key-name> --recover
 ```
 
-example:
+### Instructions for Genesis Validators
+
+#### Create Gentx
+
+##### 1. Add genesis account:
 ```
-cohod keys add coho-test-wallet
-
-# replace coho-tester-wallet with a wallet name of your choosing
+cohod add-genesis-account <key-name> 1000000000ucoho --keyring-backend os
 ```
-## More about validators
 
-Please refer to the Cosmos Hub documentation on validators for a general overview of running a validator. We are using the exact same validator model and software, but with slightly different parameters and other functionality specific to the Cosmic Horizon Network.
+##### 2. Create Gentx
+```
+cohod gentx <key-name> 1000000000ucoho \
+--chain-id darkenergy-1 \
+--moniker="<moniker>" \
+--commission-max-change-rate=0.01 \
+--commission-max-rate=0.20 \
+--commission-rate=0.05 \
+--details="XXXXXXXX" \
+--security-contact="XXXXXXXX" \
+--website="XXXXXXXX"
+```
 
-* [Run a Validator](https://hub.cosmos.network/main/validators/validator-setup.html)
-* [Validators Overview](https://hub.cosmos.network/main/validators/overview.html)
-* [Validator Security](https://hub.cosmos.network/main/validators/security.html)
-* [Validator FAQ](https://hub.cosmos.network/main/validators/validator-faq.html)
+#### Submit PR with Gentx and peer id
+1. Copy the contents of ${HOME}/.cohod/config/gentx/gentx-XXXXXXXX.json.
+2. Fork https://github.com/cosmic-horizon/testnets
+3. Create a file gentx-{{VALIDATOR_NAME}}.json under the networks/testnets/darkenergy-1/gentx folder in the forked repo, paste the copied text into the file.
+4. Create a Pull Request to the main branch of the repository
+
+### Await further instruction!
