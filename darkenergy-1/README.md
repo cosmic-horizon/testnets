@@ -125,7 +125,7 @@ cohod gentx <key-name> 1000000000ucoho \
 ```
 
 #### Submit PR with Gentx and peer id
-1. Copy the contents of ${HOME}/.cohod/config/gentx/gentx-XXXXXXXX.json.
+1. Copy the contents of ${HOME}/.coho/config/gentx/gentx-XXXXXXXX.json.
 2. Fork https://github.com/cosmic-horizon/testnets
 3. Create a file gentx-{{VALIDATOR_NAME}}.json under the networks/testnets/darkenergy-1/gentx folder in the forked repo, paste the copied text into the file.
 4. Create a Pull Request to the main branch of the repository
