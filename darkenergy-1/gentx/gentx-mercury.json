@@ -13,7 +13,7 @@
         "commission": {
           "rate": "0.050000000000000000",
           "max_rate": "0.200000000000000000",
-          "max_change_rate": "0.050000000000000000"
+          "max_change_rate": "0.010000000000000000"
         },
         "min_self_delegation": "1",
         "delegator_address": "coho1rqvgnqpjz5recfdf3y4vzd96sftswcpjn6hj0w",
@@ -24,7 +24,7 @@
         },
         "value": {
           "denom": "ucoho",
-          "amount": "1000000000000"
+          "amount": "1000000000"
         }
       }
     ],
@@ -56,6 +56,6 @@
     }
   },
   "signatures": [
-    "3dwHMmGfd4rhqToO4AYaiZBVxhYZtqK8cZZo8xETbkAAM2Uh2SaMGtxbfx7u5/A9UX/b9N7OJvQHZp3IIhGukQ=="
+    "7qRRB9edcLuh3qYljLwoaBg/aKmyEsC13+VmpbgMZ05N9RZ/a8CN5HuWbxp5l1KHXVn7Fb/NuAxwnGJabw8xlw=="
   ]
 }
