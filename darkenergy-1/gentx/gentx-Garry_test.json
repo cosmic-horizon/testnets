@@ -1,0 +1,9 @@
+cohod gentx <key-name> 1000000000ucoho \
+--chain-id darkenergy-1 \
+--moniker="<moniker>" \
+--commission-max-change-rate=0.01 \
+--commission-max-rate=0.20 \
+--commission-rate=0.05 \
+--details="XXXXXXXX" \
+--security-contact="XXXXXXXX" \
+--website="XXXXXXXX"
