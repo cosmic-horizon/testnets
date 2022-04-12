@@ -87,7 +87,13 @@ git checkout v0.1
 starport chain build
 ```
 
-#### 2. Init chain
+#### 2. Add the name of the node to a variable and check
+```bash:
+MONIKER_NAME="Your_node_name"
+echo $MONIKER_NAME
+```
+
+#### 2.1 Init chain
 ```bash:
 cohod init $MONIKER_NAME --chain-id darkenergy-1
 ```
