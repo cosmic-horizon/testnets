@@ -1,9 +1,0 @@
-{"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgCreateValidator","description":{"moniker":"Chill Validation","identity":"","websit
-e":"","security_contact":"","details":""},"commission":{"rate":"0.050000000000000000","max_rate":"0.200000000000000000","max_change_rate":"0
-.100000000000000000"},"min_self_delegation":"1","delegator_address":"coho18wpcv5rdft0k8a0mzepxhyqncgvd0nplm5crsf","validator_address":"cohov
-aloper18wpcv5rdft0k8a0mzepxhyqncgvd0npltq6kgk","pubkey":{"@type":"/cosmos.crypto.ed25519.PubKey","key":"mFn/MzVVjlEiuXvJQ5j3kFmkPlOF61ftCT5C
-9dDwEA8="},"value":{"denom":"ucoho","amount":"1000000000"}}],"memo":"36b0218bc6c69183eba172cdca83010430b728ea@104.248.151.116:26656","timeou
-t_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[{"public_key":{"@type":"/cosmos.crypt
-o.secp256k1.PubKey","key":"A3I6oknQnImB++pjDZmjRp95z41ZGe0e6iw6Pk5AVtkW"},"mode_info":{"single":{"mode":"SIGN_MODE_DIRECT"}},"sequence":"0"}
-],"fee":{"amount":[],"gas_limit":"200000","payer":"","granter":""}},"signatures":["yI86LOWWGwKarK7sB1RLakO3U6hPnSZsnIY7FocHAxUH+r+B2XOJ6fOnS
-zSfqkgUUH7vD7rXXxzXHYpwsDhDDw=="]}
