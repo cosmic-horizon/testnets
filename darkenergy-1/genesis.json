@@ -1,5 +1,5 @@
 {
-    "genesis_time": "2022-02-08T16:45:00Z",
+    "genesis_time": "2022-04-026T17:45:00Z",
     "chain_id": "darkenergy-1",
     "initial_height": "1",
     "consensus_params": {
@@ -730,6 +730,20 @@
             "pub_key": null,
             "account_number": "99",
             "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "",
+            "pub_key": null,
+            "account_number": "100",
+            "sequence": "0"
+          },
+          {
+            "@type": "/cosmos.auth.v1beta1.BaseAccount",
+            "address": "",
+            "pub_key": null,
+            "account_number": "101",
+            "sequence": "0"
           }
         ]
       },
@@ -744,7 +758,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -753,7 +767,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -762,7 +776,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -771,7 +785,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -780,7 +794,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -789,7 +803,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -798,7 +812,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -807,7 +821,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -816,7 +830,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -825,7 +839,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -834,7 +848,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -843,7 +857,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -852,7 +866,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -861,7 +875,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -870,7 +884,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -879,7 +893,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -888,7 +902,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -897,7 +911,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -906,7 +920,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -915,7 +929,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -924,7 +938,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -933,7 +947,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -942,7 +956,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -951,7 +965,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -960,7 +974,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -969,7 +983,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -978,7 +992,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -987,7 +1001,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -996,7 +1010,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1005,7 +1019,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1014,7 +1028,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1023,7 +1037,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1032,7 +1046,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1041,7 +1055,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1050,7 +1064,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1059,7 +1073,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1068,7 +1082,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1077,7 +1091,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1086,7 +1100,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1095,7 +1109,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1104,7 +1118,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1113,7 +1127,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1122,7 +1136,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1131,7 +1145,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1140,7 +1154,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1149,7 +1163,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1158,7 +1172,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1167,7 +1181,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1176,7 +1190,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1185,7 +1199,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1194,7 +1208,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1203,7 +1217,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1212,7 +1226,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1221,7 +1235,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1230,7 +1244,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1239,7 +1253,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1248,7 +1262,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1257,7 +1271,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1266,7 +1280,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1275,7 +1289,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1284,7 +1298,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1293,7 +1307,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1302,7 +1316,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1311,7 +1325,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1320,7 +1334,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1329,7 +1343,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1338,7 +1352,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1347,7 +1361,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1356,7 +1370,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1365,7 +1379,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1374,7 +1388,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1383,7 +1397,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1392,7 +1406,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1401,7 +1415,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1410,7 +1424,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1419,7 +1433,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1428,7 +1442,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1437,7 +1451,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1446,7 +1460,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1455,7 +1469,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1464,7 +1478,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1473,7 +1487,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1482,7 +1496,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1491,7 +1505,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1500,7 +1514,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1509,7 +1523,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1518,7 +1532,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1527,7 +1541,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1536,7 +1550,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1545,7 +1559,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1554,7 +1568,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1563,7 +1577,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1572,7 +1586,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1581,7 +1595,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1590,7 +1604,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1599,7 +1613,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1608,7 +1622,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1617,7 +1631,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1626,7 +1640,7 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
               }
             ]
           },
@@ -1635,7 +1649,25 @@
             "coins": [
               {
                 "denom": "ucoho",
-                "amount": "1000000000000"
+                "amount": "100000000000"
+              }
+            ]
+          },
+          {
+            "address": "coho1435h07t8tcd06whl9g670wym52hlfylau6rxxg",
+            "coins": [
+              {
+                "denom": "ucoho",
+                "amount": "45000000000000"
+              }
+            ]
+          },
+          {
+            "address": "coho1646gn9xmrnywyvwuppl8r34z54vwvhkwa8zmqe",
+            "coins": [
+              {
+                "denom": "ucoho",
+                "amount": "45000000000000"
               }
             ]
           }
@@ -1659,7 +1691,7 @@
       "distribution": {
         "params": {
           "community_tax": "0.020000000000000000",
-          "base_proposer_reward": "0.010000000000000000",
+          "base_proposer_reward": "0.0100000000000000",
           "bonus_proposer_reward": "0.040000000000000000",
           "withdraw_addr_enabled": true
         },
@@ -1760,7 +1792,7 @@
           "min_signed_per_window": "0.050000000000000000",
           "downtime_jail_duration": "600s",
           "slash_fraction_double_sign": "0.050000000000000000",
-          "slash_fraction_downtime": "0.000100000000000000"
+          "slash_fraction_downtime": "0.0001000000000000"
         },
         "signing_infos": [],
         "missed_blocks": []
