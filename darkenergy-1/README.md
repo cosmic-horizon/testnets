@@ -102,32 +102,15 @@ cohod keys add <key-name>
 cohod keys add <key-name> --recover
 ```
 
-### Instructions for Genesis Validators
+### Launch Genesis Validator
 
-#### Create Gentx
+Replace the default genesis file with the new genesis and start your validator.  Darkenergy-1 testnet launches **2022-04-26T17:45:00Z!**
 
-##### 1. Add genesis account:
+```bash:
+cd ~/.coho/config
+rm genesis.json
+
+wget https://raw.githubusercontent.com/cosmic-horizon/testnets/main/darkenergy-1/genesis.json
+
+cohod start
 ```
-cohod add-genesis-account <key-name> 1000000000ucoho --keyring-backend os
-```
-
-##### 2. Create Gentx
-```
-cohod gentx <key-name> 1000000000ucoho \
---chain-id darkenergy-1 \
---moniker="<moniker>" \
---commission-max-change-rate=0.01 \
---commission-max-rate=0.20 \
---commission-rate=0.05 \
---details="XXXXXXXX" \
---security-contact="XXXXXXXX" \
---website="XXXXXXXX"
-```
-
-#### Submit PR with Gentx and peer id
-1. Copy the contents of ${HOME}/.cohod/config/gentx/gentx-XXXXXXXX.json.
-2. Fork https://github.com/cosmic-horizon/testnets
-3. Create a file gentx-{{VALIDATOR_NAME}}.json under the networks/testnets/darkenergy-1/gentx folder in the forked repo, paste the copied text into the file.
-4. Create a Pull Request to the main branch of the repository
-
-### Await further instruction!
