@@ -114,3 +114,9 @@ wget https://raw.githubusercontent.com/cosmic-horizon/testnets/main/darkenergy-1
 
 cohod start
 ```
+
+### Seed Node
+
+```
+149.28.70.87:26657
+```
