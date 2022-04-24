@@ -81,7 +81,7 @@ sudo mv starport /usr/local/bin/
 
 ##### 1. Clone repository
 ```bash:
-https://github.com/cosmic-horizon/coho.git
+git clone https://github.com/cosmic-horizon/coho.git
 cd coho
 git checkout v0.1
 starport chain build
