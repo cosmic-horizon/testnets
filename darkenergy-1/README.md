@@ -1,4 +1,4 @@
-# Cosmic Horizon Network Testnet: darkmatter-1 Testnet
+# Cosmic Horizon Network Testnet: darkenergy-1 Testnet
 
 ### Quick Links
 Genesis: TBA
