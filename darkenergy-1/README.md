@@ -111,7 +111,7 @@ cd ~/.coho/config
 rm genesis.json
 
 wget https://raw.githubusercontent.com/cosmic-horizon/testnets/main/darkenergy-1/genesis.json
-
+cohod unsafe-reset-all
 cohod start
 ```
 
