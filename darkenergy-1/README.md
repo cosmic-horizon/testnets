@@ -5,7 +5,7 @@ Genesis: TBA
 
 Git tag: coho v0.1
 
-Block explorer: **coming soon**
+Block explorer: [SkyNet | Explorers](https://www.skynetexplorers.com/cosmic-horizon)
 
 Seeds: TBA
 
