@@ -17,7 +17,7 @@ Here are the minimal hardware configs required for running a validator/sentry no
 
 #### Software Requirements
 - Ubuntu 18.04 or higher
-- [Go v1.8](https://golang.org/doc/install)
+- [Go v1.18.1.](https://golang.org/doc/install)
 - [Starport](https://docs.starport.network/guide/install.html)
 
 ### Installation Steps
