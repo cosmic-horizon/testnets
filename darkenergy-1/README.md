@@ -17,7 +17,7 @@ Here are the minimal hardware configs required for running a validator/sentry no
 
 #### Software Requirements
 - Ubuntu 18.04 or higher
-- [Go v1.8](https://golang.org/doc/install)
+- [Go v1.18](https://golang.org/doc/install)
 - [Starport](https://docs.starport.network/guide/install.html)
 
 ### Installation Steps
@@ -55,7 +55,7 @@ EOF
 source ~/.profile
 go version
 ```
-Output should be: `go version go1.8 linux/amd64`
+Output should be: `go version go1.18 linux/amd64`
 
 ##### 3. Install Starport
 This command invokes curl to download the install script and pipes the output to bash to perform the installation. The starport binary is installed in /usr/local/bin.
