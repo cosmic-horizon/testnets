@@ -1,11 +1,11 @@
-# Cosmic Horizon Network Testnet: darkmatter-1 Testnet
+# Cosmic Horizon Network Testnet: darkenergy-1 Testnet
 
 ### Quick Links
 Genesis: TBA
 
 Git tag: coho v0.1
 
-Block explorer: **coming soon**
+Block explorer: [SkyNet | Explorers](https://www.skynetexplorers.com/cosmic-horizon)
 
 Seeds: TBA
 
@@ -17,7 +17,7 @@ Here are the minimal hardware configs required for running a validator/sentry no
 
 #### Software Requirements
 - Ubuntu 18.04 or higher
-- [Go v1.8](https://golang.org/doc/install)
+- [Go v1.18](https://golang.org/doc/install)
 - [Starport](https://docs.starport.network/guide/install.html)
 
 ### Installation Steps
@@ -55,7 +55,7 @@ EOF
 source ~/.profile
 go version
 ```
-Output should be: `go version go1.8 linux/amd64`
+Output should be: `go version go1.18 linux/amd64`
 
 ##### 3. Install Starport
 This command invokes curl to download the install script and pipes the output to bash to perform the installation. The starport binary is installed in /usr/local/bin.
@@ -81,7 +81,7 @@ sudo mv starport /usr/local/bin/
 
 ##### 1. Clone repository
 ```bash:
-https://github.com/cosmic-horizon/coho.git
+git clone https://github.com/cosmic-horizon/coho.git
 cd coho
 git checkout v0.1
 starport chain build
@@ -102,32 +102,21 @@ cohod keys add <key-name>
 cohod keys add <key-name> --recover
 ```
 
-### Instructions for Genesis Validators
+### Launch Genesis Validator
 
-#### Create Gentx
+Replace the default genesis file with the new genesis and start your validator.  Darkenergy-1 testnet launches **2022-04-26T17:45:00Z!**
 
-##### 1. Add genesis account:
-```
-cohod add-genesis-account <key-name> 1000000000ucoho --keyring-backend os
-```
+```bash:
+cd ~/.coho/config
+rm genesis.json
 
-##### 2. Create Gentx
-```
-cohod gentx <key-name> 1000000000ucoho \
---chain-id darkenergy-1 \
---moniker="<moniker>" \
---commission-max-change-rate=0.01 \
---commission-max-rate=0.20 \
---commission-rate=0.05 \
---details="XXXXXXXX" \
---security-contact="XXXXXXXX" \
---website="XXXXXXXX"
+wget https://raw.githubusercontent.com/cosmic-horizon/testnets/main/darkenergy-1/genesis.json
+cohod unsafe-reset-all
+cohod start
 ```
 
-#### Submit PR with Gentx and peer id
-1. Copy the contents of ${HOME}/.cohod/config/gentx/gentx-XXXXXXXX.json.
-2. Fork https://github.com/cosmic-horizon/testnets
-3. Create a file gentx-{{VALIDATOR_NAME}}.json under the networks/testnets/darkenergy-1/gentx folder in the forked repo, paste the copied text into the file.
-4. Create a Pull Request to the main branch of the repository
+### Seed Node
 
-### Await further instruction!
+```
+a06e58e39d4a471d00d2e5d58233089c64fa5bb8@149.28.70.87:26656
+```
