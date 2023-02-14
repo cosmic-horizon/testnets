@@ -44,6 +44,27 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "qwoyn1wpgehcm8zl0n9znla6ttjmwrxnkn6ccmzwcuu3",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "qwoyn1jnt4d7a6mxygtcfvrpkcvsjq5w4mks9vtynaz9",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -68,6 +89,33 @@
               "amount": "10000000000000"
             }
           ]
+        },
+        {
+          "address": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "3000000000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn1wpgehcm8zl0n9znla6ttjmwrxnkn6ccmzwcuu3",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "4000000000000"
+            }
+          ]
+        },
+        {
+          "address": "qwoyn1jnt4d7a6mxygtcfvrpkcvsjq5w4mks9vtynaz9",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "3000000000000"
+            }
+          ]
         }
       ],
       "supply": [
@@ -77,7 +125,7 @@
         },
         {
           "denom": "uqwoyn",
-          "amount": "10000000000000"
+          "amount": "20000000000000"
         }
       ],
       "denom_metadata": []
@@ -149,16 +197,16 @@
         "min_deposit": [
           {
             "denom": "uqwoyn",
-            "amount": "10000000"
+            "amount": "100000000"
           }
         ],
-        "max_deposit_period": "172800s"
+        "max_deposit_period": "86400s"
       },
       "voting_params": {
-        "voting_period": "172800s"
+        "voting_period": "86400s"
       },
       "tally_params": {
-        "quorum": "0.334000000000000000",
+        "quorum": "0.400000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000"
       }
@@ -203,8 +251,8 @@
       },
       "params": {
         "mint_denom": "uqwoyn",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.400000000000000000",
+        "inflation_rate_change": "0.230000000000000000",
+        "inflation_max": "0.300000000000000000",
         "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "4360000",
