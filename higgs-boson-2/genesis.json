@@ -104,7 +104,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "4000000000000"
+              "amount": "3000000000000"
             }
           ]
         },
@@ -125,7 +125,7 @@
         },
         {
           "denom": "uqwoyn",
-          "amount": "11000000000000"
+          "amount": "10000000000000"
         }
       ],
       "denom_metadata": []
