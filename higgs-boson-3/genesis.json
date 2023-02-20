@@ -244,6 +244,25 @@
         "next_channel_sequence": "0"
       }
     },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": []
+        }
+      }
+    },
     "mint": {
       "minter": {
         "inflation": "0.400000000000000000",
