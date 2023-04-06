@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2023-03-10T01:28:20.038563174Z",
+  "genesis_time": "2023-03-14T01:28:20.038563174Z",
   "chain_id": "higgs-boson-3",
   "initial_height": "1",
   "consensus_params": {
@@ -158,7 +158,12 @@
         "withdraw_addr_enabled": true
       },
       "fee_pool": {
-        "community_pool": []
+        "community_pool": [
+          {
+            "amount": "1000000000000.000000000000000000",
+            "denom": "uqwoyn"
+          }
+        ]
       },
       "delegator_withdraw_infos": [],
       "previous_proposer": "",
