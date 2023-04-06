@@ -100,7 +100,7 @@
           ]
         },
         {
-          "address": "qwoyn1wpgehcm8zl0n9znla6ttjmwrxnkn6ccmzwcuu3",
+          "address": ""qwoyn1arrkn5ra683ada7ankyn8cxngpcmwmmy8naqye"",
           "coins": [
             {
               "denom": "uqwoyn",
@@ -116,7 +116,17 @@
               "amount": "3000000000000"
             }
           ]
+        },
+        {
+          "address": "qwoyn1jnt4d7a6mxygtcfvrpkcvsjq5w4mks9vtynaz9",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "0"
+            }
+          ]
         }
+
       ],
       "supply": [
         {
