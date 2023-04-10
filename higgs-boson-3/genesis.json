@@ -193,9 +193,9 @@
     "game": {
       "params": {
         "owner": "qwoyn1ne6rxhlsup036c0zl4acj2qzfqvqdzrmpep4qt",
-        "deposit_denom": "uqwoyn",
+        "deposit_denom": "ucoho",
         "staking_inflation": "1.000000000000000000",
-        "unstaking_time": "30s",
+        "unstaking_time": "86400s",
         "swap_fee_collector": "qwoyn1tl9wrv0l5l05xr2qtd4fptkd2wy356hxtcuqq4",
         "swap_fee": "0.001000000000000000"
       },
@@ -296,7 +296,7 @@
         "inflation_rate_change": "0.130000000000000000",
         "inflation_max": "0.400000000000000000",
         "inflation_min": "0.070000000000000000",
-        "goal_bonded": "0.670000000000000000",
+        "goal_bonded": "0.280000000000000000",
         "blocks_per_year": "4360000",
         "max_cap": "21000000000000",
         "outpost_funding_pool_portion": "0.500000000000000000"
@@ -316,7 +316,7 @@
     },
     "staking": {
       "params": {
-        "unbonding_time": "1814400s",
+        "unbonding_time": "604800s",
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
@@ -346,9 +346,10 @@
     "wasm": {
       "params": {
         "code_upload_access": {
-          "permission": "Everybody"
+          "permission": "Everybody",
+          "address": ""
         },
-        "instantiate_default_permission": "Nobody"
+        "instantiate_default_permission": "Everybody"
       },
       "codes": [],
       "contracts": [],
