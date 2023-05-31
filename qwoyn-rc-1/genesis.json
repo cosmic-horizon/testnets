@@ -46,11 +46,11 @@
       },
       "accounts": [
         {
-        "@type": "/cosmos.auth.v1beta1.BaseAccount",
-        "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
-        "pub_key": null,
-        "account_number": "0",
-        "sequence": "0"
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
@@ -90,9 +90,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1716872400"
+            "end_time": "1717199940"
           },
-          "start_time": "1685250000",
+          "start_time": "1685577540",
           "vesting_periods": [
             {
               "length": "0",
@@ -131,9 +131,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1716872400"
+            "end_time": "1717199940"
           },
-          "start_time": "1685250000",
+          "start_time": "1685577540",
           "vesting_periods": [
             {
               "length": "0",
@@ -172,9 +172,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1779986304"
+            "end_time": "1780271940"
           },
-          "start_time": "1685250000",
+          "start_time": "1685577540",
           "vesting_periods": [
             {
               "length": "0",
@@ -406,7 +406,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "24"
+                  "amount": "1"
                 }
               ]
             }
@@ -431,7 +431,7 @@
             "delegated_vesting": [],
             "end_time": "1779986304"
           },
-          "start_time": "1685250000",
+          "start_time": "1685577540",
           "vesting_periods": [
             {
               "length": "0",
@@ -687,7 +687,7 @@
         "default_send_enabled": true
       },
       "balances": [
-      {
+        {
           "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
           "coins": [
             {
@@ -766,8 +766,8 @@
       ],
       "supply": [
         {
-        "denom": "ucoho",
-        "amount": "499999999999999"
+          "denom": "ucoho",
+          "amount": "499999999999999"
         },
         {
           "denom": "uqwoyn",
@@ -936,13 +936,13 @@
     "intertx": null,
     "mint": {
       "minter": {
-        "inflation": "0.400000000000000000",
+        "inflation": "0.100000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "uqwoyn",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.400000000000000000",
+        "inflation_rate_change": "0.030000000000000000",
+        "inflation_max": "0.100000000000000000",
         "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "4360000",
@@ -994,10 +994,10 @@
     "wasm": {
       "params": {
         "code_upload_access": {
-          "permission": "Everybody",
+          "permission": "Nobody",
           "address": ""
         },
-        "instantiate_default_permission": "Everybody"
+        "instantiate_default_permission": "Nobody"
       },
       "codes": [],
       "contracts": [],
