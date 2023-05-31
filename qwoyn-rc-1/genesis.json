@@ -968,7 +968,7 @@
         "max_validators": 50,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "stake"
+        "bond_denom": "uqwoyn"
       },
       "last_total_power": "0",
       "last_validator_powers": [],
@@ -994,10 +994,10 @@
     "wasm": {
       "params": {
         "code_upload_access": {
-          "permission": "Nobody",
+          "permission": "Everybody",
           "address": ""
         },
-        "instantiate_default_permission": "Nobody"
+        "instantiate_default_permission": "Everybody"
       },
       "codes": [],
       "contracts": [],
