@@ -1,6 +1,6 @@
 {
   "genesis_time": "2023-05-31T11:59:00Z",
-  "chain_id": "qwoyn-rc-1",
+  "chain_id": "qwoyn-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -370,7 +370,7 @@
           ],
           "base": "uqwoyn",
           "display": "qwoyn",
-          "name": "Qwoyn",
+          "name": "Qwoyn Network Governance Token",
           "symbol": "QNQ"
         }
       ]
