@@ -24,7 +24,7 @@
   "app_state": {
     "aquifer": {
       "params": {
-        "maintainer": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
+        "maintainer": "",
         "deposit_token": "ibc/C053D637CCA2A2BA030E2C5EE1B28A16F71CCB0E45E8BE52766DC1B241B77878",
         "allocation_token": "uqwoyn",
         "vesting_duration": "31104000",
@@ -57,7 +57,7 @@
             "original_vesting": [
               {
                 "denom": "uqwoyn",
-                "amount": "75000000000"
+                "amount": "1000000000000"
               }
             ],
             "delegated_free": [],
@@ -80,7 +80,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -89,7 +89,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -98,7 +98,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -107,7 +107,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -116,7 +116,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -125,7 +125,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -134,7 +134,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -143,7 +143,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -152,7 +152,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -161,7 +161,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -170,7 +170,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -179,7 +179,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -188,7 +188,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -197,7 +197,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -206,7 +206,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -215,7 +215,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -224,7 +224,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -233,7 +233,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -242,7 +242,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -251,7 +251,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -260,7 +260,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -269,7 +269,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -278,7 +278,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041625000"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -287,7 +287,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "1041624999"
+                  "amount": "39999960000"
                 }
               ]
             },
@@ -296,7 +296,7 @@
               "amount": [
                 {
                   "denom": "uqwoyn",
-                  "amount": "50000000001"
+                  "amount": "39999960000"
                 }
               ]
             }
