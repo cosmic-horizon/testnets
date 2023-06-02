@@ -369,7 +369,9 @@
             }
           ],
           "base": "uqwoyn",
-          "display": "qwoyn"
+          "display": "qwoyn",
+          "name": "Qwoyn",
+          "symbol": "QNQ"
         }
       ]
     },
