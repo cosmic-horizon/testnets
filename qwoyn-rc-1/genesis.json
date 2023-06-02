@@ -47,7 +47,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
+          "address": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -65171,11 +65171,11 @@
       },
       "balances": [
         {
-          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
+          "address": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
           "coins": [
             {
               "denom": "ucoho",
-              "amount": "0"
+              "amount": "500000000000000"
             },
             {
               "denom": "uqwoyn",
@@ -67988,10 +67988,10 @@
     },
     "game": {
       "params": {
-        "owner": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
+        "owner": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
         "deposit_denom": "uqwoyn",
         "staking_inflation": "0.010000000000000000",
-        "unstaking_time": "30s",
+        "unstaking_time": "300s",
         "swap_fee_collector": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
         "swap_fee": "0.005000000000000000"
       },
