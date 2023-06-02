@@ -5277,254 +5277,6 @@
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "44-3year",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "uqwoyn",
-                "amount": "2173920000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1781053110"
-          },
-          "start_time": "1689012000",
-          "vesting_periods": [
-            {
-              "length": "0",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "1000000"
-                }
-              ]
-            },
-            {
-              "length": "31556952",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538341"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            },
-            {
-              "length": "2629746",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "90538333"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
               "address": "qwoyn1rw3lfj9y5y6l6wshejd57j0zezx0xxkvmu2v9j",
               "pub_key": null,
               "account_number": "0",
@@ -5731,47 +5483,6 @@
           "base_vesting_account": {
             "base_account": {
               "address": "qwoyn1v8yc8tp0rpp7ghyvna2x5z3pxhuuts70l7htst",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "uqwoyn",
-                "amount": "1587310000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1720634400"
-          },
-          "start_time": "1689012000",
-          "vesting_periods": [
-            {
-              "length": "0",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "1000000"
-                }
-              ]
-            },
-            {
-              "length": "31622400",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "1586310000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "52-1year",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -65179,7 +64890,7 @@
             },
             {
               "denom": "uqwoyn",
-              "amount": "2000000000000"
+              "amount": "2003761230000"
             }
           ]
         },
@@ -65571,15 +65282,6 @@
           ]
         },
         {
-          "address": "44-3year",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "2173920000"
-            }
-          ]
-        },
-        {
           "address": "qwoyn1rw3lfj9y5y6l6wshejd57j0zezx0xxkvmu2v9j",
           "coins": [
             {
@@ -65626,15 +65328,6 @@
         },
         {
           "address": "qwoyn1v8yc8tp0rpp7ghyvna2x5z3pxhuuts70l7htst",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "1587310000"
-            }
-          ]
-        },
-        {
-          "address": "52-1year",
           "coins": [
             {
               "denom": "uqwoyn",
