@@ -24,7 +24,7 @@
   "app_state": {
     "aquifer": {
       "params": {
-        "maintainer": "",
+        "maintainer": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
         "deposit_token": "ibc/C053D637CCA2A2BA030E2C5EE1B28A16F71CCB0E45E8BE52766DC1B241B77878",
         "allocation_token": "uqwoyn",
         "vesting_duration": "31104000",
@@ -45,116 +45,6 @@
         "sig_verify_cost_secp256k1": "1000"
       },
       "accounts": [
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1928frg7rrfnvz900qyrw7nvwu75s9chy5g5nuz",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1hw9jaepra8q0cqjk8vjmss4ykh0t0p3un7m8kn",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "qwoyn1yatzmzt2954c2gq2k7cy4n7s9d9vz56ku3re5v",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "uqwoyn",
-                "amount": "875000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1717199940"
-          },
-          "start_time": "1685577540",
-          "vesting_periods": [
-            {
-              "length": "0",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "1000000"
-                }
-              ]
-            },
-            {
-              "length": "31622400",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "874999000000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "qwoyn15ac9x0l3vg5f96wcycf0avswajcljhz7epch8p",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "uqwoyn",
-                "amount": "375000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1717199940"
-          },
-          "start_time": "1685577540",
-          "vesting_periods": [
-            {
-              "length": "0",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "1000000"
-                }
-              ]
-            },
-            {
-              "length": "31622400",
-              "amount": [
-                {
-                  "denom": "uqwoyn",
-                  "amount": "374999000000"
-                }
-              ]
-            }
-          ]
-        },
         {
           "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
           "base_vesting_account": {
@@ -431,60 +321,11 @@
       },
       "balances": [
         {
-          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
-          "coins": [
-            {
-              "denom": "ucoho",
-              "amount": "1"
-            },
-            {
-              "denom": "uqwoyn",
-              "amount": "2000000000000"
-            }
-          ]
-        },
-        {
-          "address": "qwoyn1928frg7rrfnvz900qyrw7nvwu75s9chy5g5nuz",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "3531384170000"
-            }
-          ]
-        },
-        {
-          "address": "qwoyn1hw9jaepra8q0cqjk8vjmss4ykh0t0p3un7m8kn",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "2000000000000"
-            }
-          ]
-        },
-        {
-          "address": "qwoyn1yatzmzt2954c2gq2k7cy4n7s9d9vz56ku3re5v",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "875000000000"
-            }
-          ]
-        },
-        {
-          "address": "qwoyn15ac9x0l3vg5f96wcycf0avswajcljhz7epch8p",
-          "coins": [
-            {
-              "denom": "uqwoyn",
-              "amount": "375000000000"
-            }
-          ]
-        },
-        {
           "address": "qwoyn1rchmguh5qqup6hvxeh08vr33ny5qj8xspqt3t2",
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "25000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -493,19 +334,15 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "1143615830000"
+              "amount": "1000000000000"
             }
           ]
         }
       ],
       "supply": [
         {
-          "denom": "ucoho",
-          "amount": "499999999999999"
-        },
-        {
           "denom": "uqwoyn",
-          "amount": "10000000000000"
+          "amount": "2000000000000"
         }
       ],
       "denom_metadata": [
@@ -528,8 +365,7 @@
             },
             {
               "denom": "qwoyn",
-              "exponent": 6,
-              "aliases": []
+              "exponent": 6
             }
           ],
           "base": "uqwoyn",
@@ -574,11 +410,11 @@
     },
     "game": {
       "params": {
-        "owner": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
+        "owner": "qwoyn1rchmguh5qqup6hvxeh08vr33ny5qj8xspqt3t2",
         "deposit_denom": "uqwoyn",
         "staking_inflation": "0.010000000000000000",
         "unstaking_time": "30s",
-        "swap_fee_collector": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
+        "swap_fee_collector": "qwoyn1rchmguh5qqup6hvxeh08vr33ny5qj8xspqt3t2",
         "swap_fee": "0.005000000000000000"
       },
       "deposits": [],
