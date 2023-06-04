@@ -47,7 +47,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
+          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -64869,6 +64869,254 @@
               ]
             }
           ]
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "qwoyn1m7mfduypv63rcxrxthg0a0nfk3r58lpslddjsy",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uqwoyn",
+                "amount": "1000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1781053110"
+          },
+          "start_time": "1689012000",
+          "vesting_periods": [
+            {
+              "length": "0",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "1000000"
+                }
+              ]
+            },
+            {
+              "length": "31556952",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            },
+            {
+              "length": "2629746",
+              "amount": [
+                {
+                  "denom": "uqwoyn",
+                  "amount": "41625000"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -64882,12 +65130,8 @@
       },
       "balances": [
         {
-          "address": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
+          "address": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
           "coins": [
-            {
-              "denom": "ucoho",
-              "amount": "500000000000000"
-            },
             {
               "denom": "uqwoyn",
               "amount": "2003761230000"
@@ -64899,7 +65143,7 @@
           "coins": [
             {
               "denom": "uqwoyn",
-              "amount": "3554690820000"
+              "amount": "3553690820000"
             }
           ]
         },
@@ -67595,6 +67839,15 @@
           ]
         },
         {
+          "address": "qwoyn1m7mfduypv63rcxrxthg0a0nfk3r58lpslddjsy",
+          "coins": [
+            {
+              "denom": "uqwoyn",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
           "address": "qwoyn1pw9muxfkw4q7jas3dfuh7tchsu8lkwhm06rjvj",
           "coins": [
             {
@@ -67605,10 +67858,6 @@
         }
       ],
       "supply": [
-        {
-          "denom": "ucoho",
-          "amount": "500000000000000"
-        },
         {
           "denom": "uqwoyn",
           "amount": "10000000000000"
@@ -67681,7 +67930,7 @@
     },
     "game": {
       "params": {
-        "owner": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
+        "owner": "qwoyn12a3tr76cczjfngaw7dll6pckjettn4rv77mua5",
         "deposit_denom": "uqwoyn",
         "staking_inflation": "0.010000000000000000",
         "unstaking_time": "300s",
@@ -67777,14 +68026,14 @@
     "intertx": null,
     "mint": {
       "minter": {
-        "inflation": "0.100000000000000000",
+        "inflation": "0.150000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "uqwoyn",
-        "inflation_rate_change": "0.030000000000000000",
-        "inflation_max": "0.100000000000000000",
-        "inflation_min": "0.070000000000000000",
+        "inflation_rate_change": "0.050000000000000000",
+        "inflation_max": "0.150000000000000000",
+        "inflation_min": "0.100000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "4360000",
         "max_cap": "21000000000000",
