@@ -61,7 +61,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "qwoyn1928frg7rrfnvz900qyrw7nvwu75s9chy5g5nuz",
+          "address": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -65139,7 +65139,7 @@
           ]
         },
         {
-          "address": "qwoyn1928frg7rrfnvz900qyrw7nvwu75s9chy5g5nuz",
+          "address": "qwoyn1n03x9w3qgyrr2gm9hnue527pat7la5y8jhcn69",
           "coins": [
             {
               "denom": "uqwoyn",
